@@ -1,0 +1,17 @@
+#videos{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.video-player{
+    background-color: black;
+    width: 100%;
+    aspect-ratio: 16/9;
+    -webkit-transform:rotateY(180deg); 
+}
+
+#user-2{
+    display:none;
+}
+
